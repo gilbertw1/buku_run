@@ -4,6 +4,11 @@ _rofi () {
     rofi -dmenu -i -no-levenshtein-sort -width 1000 "$@"
 }
 
+# field length
+title_length=70
+url_length=65
+tag_length=40
+
 # keybindings
 switch_view="Alt+Tab"
 new_bookmark="Alt+n"
